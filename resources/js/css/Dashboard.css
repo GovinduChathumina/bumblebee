@@ -1,0 +1,81 @@
+.container {
+    max-width: 800px;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+  }
+  
+  .card-header {
+    background-color: #1b2272;
+    color: white;
+    font-size: small;
+    text-align: center;
+  }
+
+  .alert-header {
+    background-color: #383d71;
+    color: white;
+    font-size: small;
+    text-align: center;
+  }
+  
+  .title-header{
+    color: #383d71;
+    font-size: small;
+    text-align: center;
+  }
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+  }
+  
+  button {
+    min-width: 100px; /* Set a minimum width for all buttons */
+  }
+  
+  .solid-button {
+    background-color: #383d71; /* Primary color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    margin-left: 8px;
+  }
+  
+  .solid-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+  }
+
+  .solid-button-close {
+    background-color: #bec1e4; /* Primary color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    margin-left: 8px;
+  }
+  
+  .solid-button-close:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+  }
+
+  .date-time {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #343a40; /* Adjust as needed */
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+  }
